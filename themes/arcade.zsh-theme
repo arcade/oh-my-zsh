@@ -1,4 +1,4 @@
-PROMPT=$'%{$fg[blue]%}%n%{$reset_color%} in %{$fg[cyan]%}${PWD/#$HOME/~}%{$reset_color%} $(git_prompt_info)$(git_prompt_status)%{$reset_color%}\nλ ➜ '
+PROMPT=$'%{$fg[blue]%}%n%{$reset_color%} in %{$fg[cyan]%}${PWD/#$HOME/~}%{$reset_color%} $(git_super_status)%{$reset_color%}\nλ ➜ '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="on %{$fg[green]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
